@@ -5,7 +5,8 @@
 - Финальный Reel: [ELAVENE-reel-001-ru-animated.mp4](../../exports/ELAVENE-reel-001-ru-animated.mp4)
 - Обложка: [ELAVENE-reel-001-ru-cover.jpg](../../exports/ELAVENE-reel-001-ru-cover.jpg)
 - Пять сгенерированных исходных сцен сохранены в `../../assets/reels/reel-001/generated-scenes/`.
-- Сборка: `node render-reel-ru.cjs`
+- Типографика: **Prata Regular** для русских фраз и написания ÉLAVÉNE (высококонтрастная антиква, близкая логотипу, с кириллицей); **Montserrat** для вспомогательной строки. Размеры экранных фраз увеличены до 60–66 px, длинные строки перенесены.
+- Сборка базового видео: `node render-reel-ru.cjs`; надписи добавляются нативной сборкой Higgsedit по `render-reel-ru-higgsedit.jsx`.
 - Проверка: `./validate-reel-ru.sh`
 
 ## Идея и параметры
