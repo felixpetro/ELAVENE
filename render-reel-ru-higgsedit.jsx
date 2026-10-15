@@ -17,7 +17,7 @@ export default async ({ project, text }) => {
         color: '#302F2C',
         strokeColor: '#F5F0E8',
         strokeWidth: 1.25,
-        typography: { fontAssetId: prata.id },
+        typography: { fontAssetId: prata.id, script: 'Cyrl', language: 'ru' },
       }),
       { at, dur, name }
     );
@@ -44,7 +44,7 @@ export default async ({ project, text }) => {
       fontSize: 118,
       letterSpacing: 12,
       color: '#302F2C',
-      typography: { fontAssetId: prata.id },
+      typography: { fontAssetId: prata.id, script: 'Latn', language: 'en' },
     }),
     { at: 11.35, dur: 2.55, name: 'brand-wordmark' }
   );
