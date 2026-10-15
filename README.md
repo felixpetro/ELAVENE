@@ -5,3 +5,5 @@ Content system for an Instagram media brand about calm, warm homes.
 The brand combines warm Scandinavian, Japandi and quiet-luxury visual direction. Its initial audience is in Europe and Russia/CIS; future monetisation uses clearly disclosed affiliate links and native product integrations.
 
 See [the 30-day launch plan](docs/instagram-launch-plan.md) for profile setup, visual guidelines, AI-generation prompt, post concepts and measurement framework.
+
+The first finished Reel package is in [the content pack](docs/content-packs/reel-001-a-calmer-warmer-home.md). Rebuild the silent video with `node render-reel.cjs` and verify it with `bash validate-reel.sh`.

@@ -53,3 +53,16 @@ Save this for later — and follow ÉLAVÉNE for considered home ideas.
 - `assets/reels/reel-001/03-reading-nook.png`
 
 All are AI-generated editorial images. When a future Reel contains a paid product integration, use an accurate product reference image, disclose the commercial relationship and verify availability for the target geography.
+
+## Build and validation
+
+The ready-to-upload silent export is `exports/ELAVENE-warm-home-final.mp4`; the cover is `exports/ELAVENE-reel-cover.jpg`. The export uses the three checked-in source images, five slow-motion shots, 0.25 s dissolves, on-screen copy and an ivory fade. It is silent so the publisher can add licensed ambient music from Instagram's music library as specified above.
+
+Rebuild and validate with Node.js and FFmpeg installed:
+
+```sh
+node render-reel.cjs
+bash validate-reel.sh
+```
+
+Validation checks the export's H.264 codec, 1080×1920 dimensions, 30 fps, 12-second duration, absence of an audio stream, and the cover dimensions. The visual review should also confirm the title, scene captions, fade and cover crop before publishing.
